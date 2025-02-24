@@ -1,0 +1,366 @@
+* , *::before , *::after
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+}
+
+.item1
+{
+    text-align: center;
+    background-color: #F7F8F9;
+    padding: 50px 0;
+    grid-area: item1;
+}
+.item1 span , .item2 span , .item5 span
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight:700 ;
+    color: #9FA3A7;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+.item1 h1
+{
+    font-family: "Arvo", serif;
+    font-size: 42.16px;
+    font-weight: 400;
+    margin: 20px 0 10px 0;
+    line-height: 
+    62.608px;
+}
+.item1 a
+{
+    color:#27B9C2;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.item2
+{
+    padding:40px 17.275px 0 17.275px;
+    grid-area: item2;
+}
+.item2 h3
+{
+font-size: 22px;
+font-weight: 400;
+font-family: "Arvo", serif ;
+line-height: 32px;
+margin:10px 0 20px 0;
+}
+.item2 p
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif ;
+    color:#9FA3A7;
+}
+.item2 img
+{
+    margin: 40px 74.225px 0 74.225px;
+    text-align:center ;
+    width: 249px;
+}
+.item3
+{
+    background-color: #F05D42;
+    text-align: center;
+    padding: 40px 0;
+    grid-area: item3;
+}
+.item3 img
+{
+    width: 319px;
+}
+.item3 h3
+{
+    font-family: "Arvo", serif ;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFFBFB;
+    margin: 10px 0 20px 0;
+    line-height: 32px;
+}
+.item3 a
+{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif ;
+    text-decoration: none;
+    color: #FFC80A;
+}
+.item4
+{
+    background-color: #F7EFF0;
+    padding:30px 0;
+    text-align: center;
+    grid-area: item4;
+}
+.item4 img
+{
+    width: 248px;
+}
+.item4 h3
+{
+    font-family: "Arvo", serif ;
+    font-size: 22px;
+    font-weight: 400;
+    margin:10px 0 20px 0;
+}
+.item4 a
+{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif ;
+    text-decoration: none;
+    color:#27B9C2;
+    letter-spacing: 2.4px;
+}
+.item5
+{
+    padding:68px 4% 50px 4%;
+    grid-area: item5;
+}
+.item5-content .item5-image
+{
+    position: relative;
+    left:-30px;
+    width: 90%;
+    margin-top: 40px;
+}
+.item5-content img
+{
+   width: 100%;
+}
+.item5-content h3
+{
+font-size: 22px;
+margin: 10px 0 0 0;
+font-weight: 400;
+font-family: "Arvo", serif ;
+}
+.item5-content2 p
+{
+    color: #9FA3A7;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif ;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.item5-content2 a
+{
+    color: #27B9C2;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif ;
+    text-decoration: none;
+}
+.item6
+{
+    background-color:#4BCFEB;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+grid-area: item6;
+}
+.item6-circle
+{
+    padding:0 34px;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    background-color: #48CAE5;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item6 img
+{
+    width:43.5px;
+}
+.item6 h3
+{
+    margin: 10px 0 20px 0;
+    font-size: 22px;
+    font-family: "Arvo", serif ;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.item7
+{
+    background-color: #93B6B7;
+    text-align: center;
+    position: relative;
+    overflow: auto;
+    grid-area: item7;
+}
+.item7 .span
+{
+    color: white;
+    background-color: #F96D56;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 100px;
+    padding:5px 10px;
+    font-size: 8px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif ;
+    letter-spacing: 2px;
+}
+.item7 img
+{
+    width:90%;
+}
+.item7 h3
+{
+    font-size: 22px;
+    font-family: "Arvo", serif ;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}
+.item8
+{
+    background-color: #8F76BC;
+    padding:30px 20.950px 70px 20.950px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    grid-area: item8;
+}
+.item8-circle
+{
+    border-radius: 50%;
+    width: 373px;
+    height:373px;
+    background-color: #8166B0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.item8 img
+{
+    width: 239px;
+}
+.circle-content .text
+{
+    background-color: #9576B3;
+    border-radius: 60px;
+    letter-spacing: 2.4px;
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif ;
+    color: white;
+    font-weight: 700;
+    line-height: 23px;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.circle-content .text i
+{
+    color: #FEC318;
+    font-size: 12px;
+}
+.circle-content .special
+{
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color:#FFFFFF;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+.item8-content
+{
+    color:#FFFFFF;
+    width: 100%;
+}
+.item8-content h3
+{
+    font-size: 32px;
+    font-family: "Arvo", serif ;
+    margin: 20px 0 10px 0;
+    line-height: 36px;
+    font-weight: 700;
+}
+.item8-content p
+{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif ;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.item8-content a
+{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif ;
+    letter-spacing: 2.4px;
+    color:#000000;
+    text-decoration: none;
+    background-color: #FEC318;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 14px 28px;
+}
+.item9
+{
+    text-align: center;
+    background-color: #F7EFF0;
+    padding:30px 0;
+    grid-area: item9;
+}
+.item9 span
+{
+    font-size: 8px;
+    font-weight: 700;
+    width: 70px;
+    font-family: "Open Sans", sans-serif ;
+    color:#FFFFFF;
+    background-color: #87C02F;
+    padding:5px 10px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+.item9 h3
+{
+    font-size: 22px;
+    font-family: "Arvo", serif ;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 10px 0 20px 0;
+}
+.item10
+{
+    background-color: #2C2C2C;
+    text-align: center;
+    grid-area: item10;
+}
+.item10 img
+{
+    width: 271px;
+    margin-right: 80px;
+}
+.item10 h3
+{
+    font-size: 22px;
+    font-family: "Arvo", serif ;
+    font-weight: 400;
+    line-height: 32px;
+    color:#FFFFFF;
+    margin: 10px 0 0 0;
+}
